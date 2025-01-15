@@ -1,0 +1,15 @@
+.copyright_div {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;
+    width: 100%;
+    background-color: #000;
+}
+
+
+/* Copyright Text */
+
+.copyright {
+    color: #ffffff99;
+    text-decoration: none;
+}
