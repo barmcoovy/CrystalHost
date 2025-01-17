@@ -50,21 +50,6 @@
             <br>
             <span class="main1_ipcopier_text2">Serwer Partnerski</span>
           </button>
-          <script>
-            function copyText() {
-                navigator.clipboard.writeText("play.example.com");
-            }
-            $(document).ready(function() {
-                $('.main1_ipcopier').click(function() {
-                    var popup = $('<div>', { class: 'main1_popup' })
-                    .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
-                    $(this).after(popup);
-                    setTimeout(function() {
-                        popup.remove();
-                    }, 1000);
-                });
-            });
-          </script>
         </div>
         <a href="#more" class="scroll">
           <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
@@ -213,5 +198,6 @@
     <script src="scripts/goToPage.js"></script>
     <script src="scripts/scrollUp.js"></script>
     <script src="scripts/scrollToElement.js"></script>
+    <script src="scripts/copyText.js"></script>
   </body>
 </html>
