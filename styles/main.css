@@ -385,6 +385,9 @@
 .main5_supporters_description_rank_supporter {
     color: #00f8ff;
 }
+.main5_website_supporter{
+    color: var(--accent1);
+}
 .main5_supporters_description_title {
     text-align: center;
     font-size:1.3rem;
