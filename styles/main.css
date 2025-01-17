@@ -1,4 +1,3 @@
-
 .mainflex {
     display: flex;
     align-items: center;
@@ -137,11 +136,13 @@
     border-radius: var(--roundness);
     transition: all .5s;
     flex-direction: column;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .main2_feature:hover {
     background-color: #00000099;
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
 
 @media (max-width: 1599px) {
@@ -383,6 +384,9 @@
 }
 .main5_supporters_description_rank_supporter {
     color: #00f8ff;
+}
+.main5_website_supporter{
+    color: var(--accent1);
 }
 .main5_supporters_description_title {
     text-align: center;

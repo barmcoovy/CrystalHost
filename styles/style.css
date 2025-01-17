@@ -1,20 +1,4 @@
 
-#more {
-    padding-top:5rem;
-    margin-top: -5rem;
-}
-#discord {
-    padding-top:5rem;
-    margin-top: -5rem;
-}
-#about {
-    padding-top:5rem;
-    margin-top: -5rem;
-}
-#join {
-    padding-top:5rem;
-    margin-top: -5rem;
-}
 
 
 .banner {
@@ -33,11 +17,3 @@
 }
 
 
-
-.headline {
-    margin-top: 2rem;
-    color: #fff;
-    font-size:3rem;
-    text-align: center;
-    font-weight: 600;
-}
