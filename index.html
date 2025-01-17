@@ -34,16 +34,6 @@
         <div class="icon" onclick="mobile_navbar_link_hider()">
             <i class="fa fa-bars"></i>
         </div>
-        <script>
-            function mobile_navbar_link_hider() {
-            var x = document.getElementById("mobile_navbar_links");
-            if (x.style.display === "flex") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "flex";
-            }
-            } 
-        </script>
     </div>
     <div class="mainflex">
       <div class="main1">
@@ -79,20 +69,6 @@
         <a href="#more" class="scroll">
           <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
         </a>
-        <script>
-          const scrollLinks = document.querySelectorAll('.scroll');
-          scrollLinks.forEach(function(link) {
-            link.addEventListener('click', function(event) {
-              event.preventDefault();
-              const target = document.querySelector(link.getAttribute('href'));
-              const offsetTop = target.offsetTop;
-              window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-              });
-            });
-          });
-        </script>
       </div>
       <div id="more"></div>
       <div class="main2">
@@ -100,28 +76,28 @@
         <div class="main2_features_div">
           <div class="main2_feature">
             <img class="main2_feature_img" alt="Feature Image" src="media/crystalhost-mchost (1).webp">
-            <a class="main2_feature_headline">Minecraft Hosting</a>
-            <a class="main2_feature_text">Oferty hostingowe dla serwerow minecraft</a>
+            <span class="main2_feature_headline">Minecraft Hosting</span>
+            <span class="main2_feature_text">Oferty hostingowe dla serwerow minecraft</span>
           </div>
           <div class="main2_feature">
             <img class="main2_feature_img" alt="Feature Image" src="media/crystalhost-mchost-dedi.webp">
-            <a class="main2_feature_headline">Minecraft Hosting Dedicated</a>
-            <a class="main2_feature_text">Oferty hostingowe dla serwerow minecraft z dedykowanymi zasobami</a>
+            <span class="main2_feature_headline">Minecraft Hosting Dedicated</span>
+            <span class="main2_feature_text">Oferty hostingowe dla serwerow minecraft z dedykowanymi zasobami</span>
           </div>
           <div class="main2_feature">
             <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Discord Bot Hosting</a>
-            <a class="main2_feature_text">Hosting discord botów (Java Script/ Python)</a>
+            <span class="main2_feature_headline">Discord Bot Hosting</span>
+            <span class="main2_feature_text">Hosting discord botów (Java Script/ Python)</span>
           </div>
           <div class="main2_feature">
             <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Hosting VPS</a>
-            <a class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VPS (Virtual Private Server)</a>
+            <span class="main2_feature_headline">Hosting VPS</span>
+            <span class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VPS (Virtual Private Server)</span>
           </div>
           <div class="main2_feature">
             <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <a class="main2_feature_headline">Hosting VDS</a>
-            <a class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VDS (Virtual Dedicated Server)</a>
+            <span class="main2_feature_headline">Hosting VDS</span>
+            <span class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VDS (Virtual Dedicated Server)</span>
           </div>
         </div>
       </div>
@@ -230,7 +206,9 @@
       </div>
     </div>
     <footer class="copyright_div">
-      <a href="#" class="copyright">Made by Kubisaek - CopyRight 2024 CrystalHost.eu &copy;</a>
+      <a href="#" class="copyright">Made by barmc - CopyRight 2025 CrystalHost.eu &copy;</a>
     </footer>
+    <script src="scripts/scrollLinks.js"></script>
+    <script src="scripts/mobileNavbarLinkHider.js"></script>
   </body>
 </html>
