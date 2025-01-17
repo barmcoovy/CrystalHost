@@ -18,8 +18,8 @@
       <a href="https://wiki.example.com/" class="desktop_navbar_link">Crystal Wiki</a>
       <a href="#discord" class="desktop_navbar_link scroll">Community</a>
       <a href="#about" class="desktop_navbar_link scroll">O nas</a>
-      <div class="desktop_navbar_link2_div">
-          <a href="#join" class="desktop_navbar_link2 scroll">Nasza Administracja</a>
+      <div class="desktop_navbar_link2_div" onclick="scrollToElement('join')">
+          <span class="desktop_navbar_link2 scroll">Nasza Administracja</span>
       </div>
     </nav>
     <div class="mobile_navbar">
@@ -74,27 +74,27 @@
       <div class="main2">
         <a class="headline">Jakie Oferty Posiadamy</a>
         <div class="main2_features_div">
-          <div class="main2_feature">
+          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
             <img class="main2_feature_img" alt="Feature Image" src="media/crystalhost-mchost (1).webp">
             <span class="main2_feature_headline">Minecraft Hosting</span>
             <span class="main2_feature_text">Oferty hostingowe dla serwerow minecraft</span>
           </div>
-          <div class="main2_feature">
+          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
             <img class="main2_feature_img" alt="Feature Image" src="media/crystalhost-mchost-dedi.webp">
             <span class="main2_feature_headline">Minecraft Hosting Dedicated</span>
             <span class="main2_feature_text">Oferty hostingowe dla serwerow minecraft z dedykowanymi zasobami</span>
           </div>
-          <div class="main2_feature">
+          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
             <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
             <span class="main2_feature_headline">Discord Bot Hosting</span>
             <span class="main2_feature_text">Hosting discord botów (Java Script/ Python)</span>
           </div>
-          <div class="main2_feature">
+          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
             <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
             <span class="main2_feature_headline">Hosting VPS</span>
             <span class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VPS (Virtual Private Server)</span>
           </div>
-          <div class="main2_feature">
+          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
             <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
             <span class="main2_feature_headline">Hosting VDS</span>
             <span class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VDS (Virtual Dedicated Server)</span>
@@ -124,7 +124,7 @@
             <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.webp">
             <div class="main5_admins_description_div">
               <a class="main5_admins_description_rank main5_admins_description_rank_owner">Założyciel Projektu</a>
-              <a class="main5_admins_description_title" href="#">Krzysztof</a>
+              <a class="main5_admins_description_title pointer">Krzysztof</a>
               <a class="main5_admins_description">Założyciel całego hostingu<br>Osoba tworząca naszą wspólną historię / administrator serwerów</a>
             </div>
           </div>
@@ -132,7 +132,7 @@
             <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.webp">
             <div class="main5_admins_description_div">
               <a class="main5_admins_description_rank main5_admins_description_rank_admin">Developer Hostingu</a>
-              <a class="main5_admins_description_title" href="#">Kuba</a>
+              <a class="main5_admins_description_title pointer" >Kuba</a>
               <a class="main5_admins_description">Developer<br>Zarządca całej sieci serwerów oraz osoba pracująca przy stronach/panelach administracyjnych</a>
             </div>
           </div>
@@ -141,64 +141,64 @@
           <div class="main5_supporters_div">
             <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
             <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_admins_description_rank_tech">Discord Manager</a>
-              <a class="main5_supporters_description_title">Maciek</a>
-              <a class="main5_supporters_description">Discord Manager<br>Osoba Pomagająca przy tworzeniu hostingu od samego początku</a>
+              <span class="main5_supporters_description_rank main5_admins_description_rank_tech">Discord Manager</span>
+              <span class="main5_supporters_description_title pointer">Maciek</span>
+              <span class="main5_supporters_description">Discord Manager<br>Osoba Pomagająca przy tworzeniu hostingu od samego początku</span>
             </div>
           </div>
           <div class="main5_supporters_div">
             <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
             <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_admins_description_rank_partner">Partner Hostingu</a>
+              <span class="main5_supporters_description_rank main5_admins_description_rank_partner">Partner Hostingu</span>
               <a class="main5_supporters_description_title" href="https://discord.gg/7PU5uMSx4Z">AgeLat.net</a>
-              <a class="main5_supporters_description">Oficjalny Partner<br>Partner Hostingu od samego początku historii</a>
+              <span class="main5_supporters_description">Oficjalny Partner<br>Partner Hostingu od samego początku historii</span>
             </div>
           </div>
           <div class="main5_supporters_div">
             <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
             <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Pomocnik</a>
+              <span class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Pomocnik</span>
               <a class="main5_supporters_description_title" href="https://discord.gg/9Qqdm5ydKU">Przejdź na discord</a>
-              <a class="main5_supporters_description"><br>Dołącz na discord i przejdz na kanał tickety aby spróbować swoich sił na rekrutacji</a>
+              <span class="main5_supporters_description"><br>Dołącz na discord i przejdz na kanał tickety aby spróbować swoich sił na rekrutacji</span>
             </div>
           </div>
           <div class="main5_supporters_div">
             <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
             <div class="main5_supporters_description_div">
-              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Pomocnik</a>
+              <span class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Pomocnik</span>
               <a class="main5_supporters_description_title" href="https://discord.gg/9Qqdm5ydKU">Przejdź na discord</a>
-              <a class="main5_supporters_description"><br>Dołącz na discord i przejdz na kanał tickety aby spróbować swoich sił na rekrutacji</a>
+              <span class="main5_supporters_description"><br>Dołącz na discord i przejdz na kanał tickety aby spróbować swoich sił na rekrutacji</span>
             </div>
           </div>
         </div>
       </div>
       <div id="join"></div>
       <div class="main3">
-        <a class="headline">Serwer Partnerski Już Wkrótce</a>
+        <span class="headline">Serwer Partnerski Już Wkrótce</span>
         <div class="main3_join_div_div">
           <div class="main3_join_div">
-            <a class="main3_join_title">Java</a>
+            <span class="main3_join_title">Java</span>
             <div class="main3_join_content_div">
               <div class="main3_join_categories">
-                <a>IP:</a>
-                <a>Version:</a>
+                <span>IP:</span>
+                <span>Version:</span>
               </div>
               <div class="main3_join_values">
-                <a>agelat.net</a>
-                <a>1.19.X-1.20.X</a>
+                <span>agelat.net</span>
+                <span>1.19.X-1.20.X</span>
               </div>
             </div>
           </div>
           <div class="main3_join_div">
-            <a class="main3_join_title">Bedrock</a>
+            <span class="main3_join_title">Bedrock</span>
             <div class="main3_join_content_div">
               <div class="main3_join_categories">
-                <a>IP:</a>
-                <a>Port:</a>
+                <span>IP:</span>
+                <span>Port:</span>
               </div>
               <div class="main3_join_values">
-                <a>bedrock.agelat.net</a>
-                <a>brak</a>
+                <span>bedrock.agelat.net</span>
+                <span>brak</span>
               </div>
             </div>
           </div>
@@ -206,9 +206,12 @@
       </div>
     </div>
     <footer class="copyright_div">
-      <a href="#" class="copyright">Made by barmc - CopyRight 2025 CrystalHost.eu &copy;</a>
+      <span class="copyright" onclick="scrollUp(0)">Made by barmc - CopyRight&copy; 2025 CrystalHost.eu </span>
     </footer>
     <script src="scripts/scrollLinks.js"></script>
     <script src="scripts/mobileNavbarLinkHider.js"></script>
+    <script src="scripts/goToPage.js"></script>
+    <script src="scripts/scrollUp.js"></script>
+    <script src="scripts/scrollToElement.js"></script>
   </body>
 </html>
