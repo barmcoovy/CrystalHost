@@ -22,7 +22,10 @@ body {
     color: white;
     margin:0px;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
 
 .pointer{
     cursor: pointer;

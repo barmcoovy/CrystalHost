@@ -27,35 +27,7 @@
     </style>
 </head>
 <body>
-    <h1>Data Center Locations</h1>
     <div id="map"></div>
-
-    <script>
-        var map = L.map('map').setView([50.4750046, 12.3649754], 2);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        L.marker([50.4750046, 12.3649754])
-            .addTo(map)
-            .bindTooltip('Falkenstein Data Center')
-            .openTooltip();
-
-        L.marker([52.2296756, 21.0122287])
-            .addTo(map)
-            .bindTooltip('Warsaw Data Center')
-            .openTooltip();
-
-        L.marker([49.4524, 11.0775])
-            .addTo(map)
-            .bindTooltip('Nuremberg Data Center')
-            .openTooltip();
-
-        L.marker([60.1695, 24.9354])
-            .addTo(map)
-            .bindTooltip('Helsinki Data Center')
-            .openTooltip();
-    </script>
 </body>
+<script src="scripts/showMap.js"></script>
 </html>

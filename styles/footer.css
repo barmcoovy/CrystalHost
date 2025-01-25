@@ -1,4 +1,13 @@
-.copyright_div {
+@import url(https://fonts.bunny.net/css?family=space-grotesk:500);
+
+
+
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.copyright-div {
     display: flex;
     justify-content: center;
     padding: 16px 0px;
@@ -13,4 +22,63 @@
     color: #ffffff99;
     text-decoration: none;
     cursor: pointer;
+}
+footer{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 70%;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 640px){
+    .footer-main{
+        margin-left: 50px;
+        display: block;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-item{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+.footer-main{
+    display: flex;
+    width: 100%;
+}
+.footer-item{
+    margin: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33%;
+}
+.socials{
+    display: flex;
+    gap: 30px;
+}
+.icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#footer-logo{
+    margin-top: 20px;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
