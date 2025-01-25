@@ -43,6 +43,9 @@ footer{
         justify-content: center;
         text-align: center;
     }
+    .copyright{
+        font-size: 10px;
+    }
 }
 .footer-main{
     display: flex;
@@ -50,7 +53,7 @@ footer{
 }
 .footer-item{
     margin: 50px;
-    height: 300px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     gap: 10px;
