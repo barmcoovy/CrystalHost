@@ -28,14 +28,14 @@ footer{
     display: flex;
     flex-direction: column;
     color: white;
-    width: 70%;
+    width: 80%;
     flex-wrap: wrap;
 }
 @media only screen and (max-width: 640px){
     .footer-main{
-        margin-left: 50px;
-        display: block;
+        display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
     .footer-item{
@@ -57,7 +57,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 33%;
+    width: 25%;
 }
 .socials{
     display: flex;
@@ -79,6 +79,7 @@ body{
 }
 #footer-logo{
     margin-top: 20px;
+    width: 100%;
 }
 .footer-info{
     display: flex;
