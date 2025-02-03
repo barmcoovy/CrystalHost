@@ -28,3 +28,16 @@
 .stats-icon{
     color: rgb(65, 21, 106);
 }
+@media (max-width: 500px) {
+    .stats{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .stats-container{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

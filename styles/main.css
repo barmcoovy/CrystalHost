@@ -205,6 +205,12 @@
     max-width: 48rem;
 }
 
+@media (max-width:500px){
+    iframe{
+        display: none;
+    }
+}
+
 .main4_dc_description_div {
     display: flex;
     flex-direction: column;
