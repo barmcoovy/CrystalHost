@@ -20,7 +20,8 @@
 body {
     background-color: var(--background1);
     color: white;
-    margin:0px;
+    margin:0;
+    overflow-x:hidden;
 }
 a{
     color: white;
