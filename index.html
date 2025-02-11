@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="media/favicon.png">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -90,16 +90,16 @@
       <div id="discord"></div>
       <div class="main4">
         <a class="headline">Dołącz do naszego community</a>
-        <div class="main4_dc_div">
-          <iframe src="https://discord.com/widget?id=SERVER_ID&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-          <div class="main4_dc_description_div">
-            <a class="main4_dc_description_title">Rozmawiaj juz teraz</a>
-            <a class="main4_dc_description"> ・Poznawaj ludzi <br> ・Szukaj naszych serwerów <br> ・Bądź informowany o nowościach <br> ・Zakup Serwer  <br><br>・ I więcej </a>
-            <a href="https://discord.gg/9Qqdm5ydKU" class="main4_dc_button_a">
-              <div class="main4_dc_button">Join</div>
-            </a>
+          <div class="main4_dc_div">
+            <iframe src="https://discord.com/widget?id=SERVER_ID&theme=dark"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <div class="main4_dc_description_div">
+              <a class="main4_dc_description_title">Rozmawiaj juz teraz</a>
+              <a class="main4_dc_description"> ・Poznawaj ludzi <br> ・Szukaj naszych serwerów <br> ・Bądź informowany o nowościach <br> ・Zakup Serwer  <br><br>・ I więcej </a>
+              <a href="https://discord.gg/9Qqdm5ydKU" class="main4_dc_button_a">
+                <div class="main4_dc_button">Join</div>
+              </a>
+            </div>
           </div>
-        </div>
       </div>
       <div id="about"></div>
       <div class="main5">
@@ -142,8 +142,8 @@
           <div class="main5_supporters_div">
             <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
             <div class="main5_supporters_description_div">
-              <span class="main5_supporters_description_rank main5_website_supporter">Bartek</span>
-              <a class="main5_supporters_description_title" href="https://discord.gg/9Qqdm5ydKU">Pomocnik</a>
+              <span class="main5_supporters_description_rank main5_website_supporter">Pomocnik</span>
+              <a class="main5_supporters_description_title" href="https://discord.gg/9Qqdm5ydKU">Bartosz</a>
               <span class="main5_supporters_description">Pomocnik<br>Osoba pomogająca przy tworzeniu strony internetowej</span>
             </div>
           </div>
@@ -190,14 +190,79 @@
         </div>
       </div>
     </div>
-    <footer class="copyright_div">
-      <span class="copyright" onclick="scrollUp(0)">Made by barmc - CopyRight&copy; 2025 CrystalHost.eu </span>
-    </footer>
+
+    <div class="stats-container">
+      <div class="stats">
+          <div class="stats-item">
+              <i class="fa-regular fa-user stats-icon"></i>
+              <h2>4</h2>
+              <span class="stats-text">CLIENTS</span>
+          </div>
+          <div class="stats-item">
+              <i class="fa-solid fa-server stats-icon"></i>
+              <h2>3</h2>
+              <span class="stats-text">SERVER</span>
+          </div>
+          <div class="stats-item">
+              <i class="fa-solid fa-gear stats-icon"></i>
+              <h2>6</h2>
+              <span class="stats-text">INSTALLS</span>
+          </div>
+      </div>
+
+
+    </div>
+    <div class="footer-container">
+      <footer>
+          <div class="footer-main">
+              <div class="footer-item">
+                  <img id="footer-logo" src="media/crystal_host.png" alt="crystal-host-Logo">
+                  <p>Hosting na którym możesz polegać</p>
+                  <div class="socials">
+                      <i class="fa-brands fa-facebook icon"></i>
+                      <i class="fa-brands fa-x-twitter icon"></i>
+                      <i class="fa-brands fa-youtube icon"></i>
+                      <i class="fa-brands fa-instagram icon"></i>
+                  </div>
+              </div>
+              <div class="footer-item">
+                  <h2>Infomarcje</h2>
+                  <a href="#" target="_blank" rel="noopener noreferrer">Strona główna</a>
+                  <a href="files/Polityka-Crystalhost.pdf"     target="_blank" rel="noopener noreferrer">Polityka prywatności</a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">Regulamin </a>
+              </div>
+              <div class="footer-item">
+                  <h2>Kontakt</h2>
+                  <span class="footer-info">
+                      <i class="fa-solid fa-envelope icon"></i>
+                      <a href="mailto:support@crystalhost.eu">support@crystalhost.eu</a>
+                  </span>
+                  <span class="footer-info">
+                      <i class="fa-brands fa-discord"></i>
+                      <a href="dsc.crystalhost.eu">dsc.crystalhost.eu</a>
+                  </span>
+              </div>
+              <div class="footer-item">
+                  <h2>Dane firmy</h2>
+                  <span>Adres: </span>
+                  <span>Numer telefonu: </span>
+                  <span>Kraj: </span>
+                  <span>Code: </span>
+              </div>
+          </div>
+          <div class="copyright-div">
+              <span class="copyright" onclick="scrollUp(0)">Made by barmc - Copyright &copy; 2025 CrystalHost.eu </span>
+          </div>
+      </footer>
+  </div>
     <script src="scripts/scrollLinks.js"></script>
     <script src="scripts/mobileNavbarLinkHider.js"></script>
     <script src="scripts/goToPage.js"></script>
     <script src="scripts/scrollUp.js"></script>
     <script src="scripts/scrollToElement.js"></script>
     <script src="scripts/copyText.js"></script>
+
+
+    
   </body>
 </html>

@@ -33,7 +33,6 @@
     margin-left:auto;
     margin-right: auto;
     transition: all .5s;
-    max-width: 40rem;
 }
 .main1_logo:hover {
     transform: scale(1.05)
@@ -203,6 +202,12 @@
     background-color: var(--background2);
     border-radius: var(--roundness);
     max-width: 48rem;
+}
+
+@media (max-width:500px){
+    iframe{
+        display: none;
+    }
 }
 
 .main4_dc_description_div {
