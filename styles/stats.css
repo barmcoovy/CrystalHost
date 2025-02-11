@@ -1,5 +1,5 @@
 .stats-container{
-    background-image: url("../media/placeholder.png");
+    background-image: url("../media/stats-background.jpg");
     width: 100%;
     height: auto;
     display: flex;
@@ -39,5 +39,6 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        background-image: url("../media/stats-background-mobile.jpg");
     }
 }
