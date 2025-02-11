@@ -1,4 +1,6 @@
-# Zmiany w stronie internetowej 2.0 
+# Zmiany w stronie internetowej 3.0 
 
-1. Zmiana wyglądu stopki (podział na 4 osobne bloki w stopkami na osobne dane)
-2. Dodany panel "statystyk", panel, w którym podane są instalacje, klienci i serwery (zdjęcie dodane w tle jest placeholderem i nie jest to finalne zdjęcie)
+1. Naprawione wyświetlanie na urządzeniach mobilnych (szerokość jednego diva była za duża przez co psuł się wygląd strony)
+2. Dodana stopka, działa na urządzeniach o każdej szerokości
+3. W bloku `stats` zmieniono background z placeholdera na odpowiedni background (inny dla mobilek oraz inny dla pozostałych rozdzielczości)
+4. Poprawione niektóre style CSS oraz szkielet HTMLa
