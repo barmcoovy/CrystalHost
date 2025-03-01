@@ -1,4 +1,5 @@
-# Zmiany w stronie internetowej 2.0 
+# Zmiany w stronie internetowej 2.0
 
-1. Zmiana wyglądu stopki (podział na 4 osobne bloki w stopkami na osobne dane)
-2. Dodany panel "statystyk", panel, w którym podane są instalacje, klienci i serwery (zdjęcie dodane w tle jest placeholderem i nie jest to finalne zdjęcie)
+1. Dodane bloki FAQ oraz Why Us
+2. Lekkie zmiany styli CSS, poprawa responsywności.
+3. Dodany komponent do wyświetlania listy FAQ `./scripts/components/faq.js`
