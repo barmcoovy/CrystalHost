@@ -1,5 +1,8 @@
-# Zmiany w stronie internetowej 2.0
 
-1. Dodane bloki FAQ oraz Why Us
-2. Lekkie zmiany styli CSS, poprawa responsywności.
-3. Dodany komponent do wyświetlania listy FAQ `./scripts/components/faq.js`
+# Zmiany w stronie internetowej 3.0 
+
+1. Naprawione wyświetlanie na urządzeniach mobilnych (szerokość jednego diva była za duża przez co psuł się wygląd strony)
+2. Dodana stopka, działa na urządzeniach o każdej szerokości
+3. W bloku `stats` zmieniono background z placeholdera na odpowiedni background (inny dla mobilek oraz inny dla pozostałych rozdzielczości)
+4. Poprawione niektóre style CSS oraz szkielet HTMLa
+
