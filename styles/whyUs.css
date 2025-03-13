@@ -1,5 +1,6 @@
 .why-us-container {
-  background-color: #000;
+  margin-top: 60px;
+  background-color: var(--background2);
   text-align: center;
   color: #fff;
   min-height: 200px;
