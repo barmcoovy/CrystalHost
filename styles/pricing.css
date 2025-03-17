@@ -16,7 +16,7 @@
 .price-block {
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 350px;
   width: 250px;
   border: 1px solid rgb(49, 49, 49);
   padding: 70px;
@@ -44,9 +44,12 @@
   transition: ease-in-out 0.6s;
 }
 .pricing-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   font-weight: bold;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .pricing-desc {
   color: gray;
@@ -78,4 +81,7 @@
     width: 60%;
     height: 60%;
   }
+}
+.pricing-image {
+  width: 40px;
 }

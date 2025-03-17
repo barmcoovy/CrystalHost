@@ -1,44 +1,35 @@
 const pricingPlansSet1 = [
   {
-    title: "BRONZE",
+    title: "Command Block",
     description: "Lorem ipsum dolor sit amet.",
     price: "19.99 PLN",
+    image: "dev.png",
     details: [
-      { header: "AMD Ryzen 9 5950X", detail: "1vCore" },
-      { header: "Pamięć RAM", detail: "1,5 GB" },
-      { header: "Szybkość dysku NVMe", detail: "2,5 GB" },
-      { header: "Własny itemshop", detail: "Tak" },
-      { header: "Anty-DDoS", detail: "Tak" },
-      { header: "Pluginy i Mody", detail: "Bez Limitu" },
-      { header: "Łącza Serwera", detail: "10 Gbps" },
+      { header: "Dysk", detail: "10 GB" },
+      { header: "Pamięć RAM", detail: "2 GB" },
+      { header: "vCPU", detail: "75%" },
     ],
   },
   {
-    title: "SILVER",
+    title: "Dirt",
     description: "Lorem ipsum dolor sit amet.",
     price: "29.99 PLN",
+    image: "dirt.png",
     details: [
-      { header: "AMD Ryzen 9 5950X", detail: "2vCore" },
-      { header: "Pamięć RAM", detail: "3 GB" },
-      { header: "Szybkość dysku NVMe", detail: "5 GB" },
-      { header: "Własny itemshop", detail: "Tak" },
-      { header: "Anty-DDoS", detail: "Tak" },
-      { header: "Pluginy i Mody", detail: "Bez Limitu" },
-      { header: "Łącza Serwera", detail: "20 Gbps" },
+      { header: "Pamięć RAM", detail: "4 GB" },
+      { header: "Dysk", detail: "15 GB" },
+      { header: "vCPU", detail: "100%" },
     ],
   },
   {
-    title: "GOLD",
+    title: "Sand",
     description: "Lorem ipsum dolor sit amet.",
     price: "39.99 PLN",
+    image: "sand.png",
     details: [
-      { header: "AMD Ryzen 9 5950X", detail: "4vCore" },
-      { header: "Pamięć RAM", detail: "6 GB" },
-      { header: "Szybkość dysku NVMe", detail: "10 GB" },
-      { header: "Własny itemshop", detail: "Tak" },
-      { header: "Anty-DDoS", detail: "Tak" },
-      { header: "Pluginy i Mody", detail: "Bez Limitu" },
-      { header: "Łącza Serwera", detail: "40 Gbps" },
+      { header: "Pamięć RAM", detail: "8 GB" },
+      { header: "Dysk", detail: "30 GB" },
+      { header: "vCPU", detail: "200%" },
     ],
   },
 ];
@@ -98,7 +89,11 @@ function renderPricingPlans(plans) {
     planBlock.classList.add("price-block");
 
     planBlock.innerHTML = `
-                              <h1 class="pricing-header">${plan.title}</h1>
+                              <h1 class="pricing-header">${
+                                plan.title
+                              } <img src='../media/${
+      plan.image
+    }' alt='image' class='pricing-image'></h1>
                               <span class="pricing-desc">${
                                 plan.description
                               }</span>
