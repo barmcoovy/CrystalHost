@@ -89,42 +89,20 @@
       <div id="more"></div>
       <div class="main2">
         <a class="headline">Jakie Oferty Posiadamy</a>
-        <div class="main2_features_div">
-          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
-            <img class="main2_feature_img" alt="Feature Image" src="media/crystalhost-mchost (1).webp">
-            <span class="main2_feature_headline">Minecraft Hosting</span>
-            <span class="main2_feature_text">Oferty hostingowe dla serwerow minecraft</span>
-          </div>
-          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
-            <img class="main2_feature_img" alt="Feature Image" src="media/crystalhost-mchost-dedi.webp">
-            <span class="main2_feature_headline">Minecraft Hosting Dedicated</span>
-            <span class="main2_feature_text">Oferty hostingowe dla serwerow minecraft z dedykowanymi zasobami</span>
-          </div>
-          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <span class="main2_feature_headline">Discord Bot Hosting</span>
-            <span class="main2_feature_text">Hosting discord botów (Java Script/ Python)</span>
-          </div>
-          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <span class="main2_feature_headline">Hosting VPS</span>
-            <span class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VPS (Virtual Private Server)</span>
-          </div>
-          <div class="main2_feature" onclick="goToPage('https://youtube.com')">
-            <img class="main2_feature_img" alt="Feature Image" src="media/placeholder.png">
-            <span class="main2_feature_headline">Hosting VDS</span>
-            <span class="main2_feature_text">Już wkrótce zostanie wprowadzony hosting VDS (Virtual Dedicated Server)</span>
-          </div>
+        <select id="pricing-select" style="width: 100px;">
+          <option value="set1">maszyna 1</option>
+          <option value="set2">maszyna 2</option>
+        </select>
+        <div class="pricing-container">
+          <div class="pricing-blocks"></div>
         </div>
+        
       </div>
       <div>
       <div id="discord"></div>
       <div class="main4">
 
-        <div class="faq-container">
-          <h1 class="faq-header">Najczęściej zadawane pytania</h1>
-          <div class="faq-items" id="faq-items"></div>
-        </div>
+        
 
 
         <div class="why-us-container" id="why-us">
@@ -185,83 +163,16 @@
             </div>
           </div>
         </div>
-        <a class="headline" id="discord-widget">Dołącz do naszego community</a>
-          <div class="main4_dc_div" >
-            <!-- <iframe src="https://discord.com/widget?id=SERVER_ID&theme=dark"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
-            <div class="main4_dc_description_div">
-              <a class="main4_dc_description_title">Rozmawiaj juz teraz</a>
-              <a class="main4_dc_description"> ・Poznawaj ludzi <br> ・Szukaj naszych serwerów <br> ・Bądź informowany o nowościach <br> ・Zakup Serwer  <br><br>・ I więcej </a>
-              <a href="https://discord.gg/9Qqdm5ydKU" class="main4_dc_button_a">
-                <div class="main4_dc_button">Join</div>
-              </a>
-            </div>
-          </div>
+        
       </div>
       <div id="about"></div>
       <div class="main5">
-        <a class="headline">Kim Jesteśmy</a>
-        <div class="main5_admin_div">
-          <div class="main5_admins_div main5_admins_dev_type2">
-            <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.webp">
-            <div class="main5_admins_description_div">
-              <a class="main5_admins_description_rank main5_admins_description_rank_owner">Założyciel Projektu</a>
-              <a class="main5_admins_description_title pointer">Krzysztof</a>
-              <a class="main5_admins_description">Założyciel całego hostingu<br>Osoba tworząca naszą wspólną historię / administrator serwerów</a>
-            </div>
-          </div>
-          <div class="main5_admins_div main5_admins_dev_type1">
-            <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.webp">
-            <div class="main5_admins_description_div">
-              <a class="main5_admins_description_rank main5_admins_description_rank_admin">Developer Hostingu</a>
-              <a class="main5_admins_description_title pointer" >Kuba</a>
-              <a class="main5_admins_description">Developer<br>Zarządca całej sieci serwerów oraz osoba pracująca przy stronach/panelach administracyjnych</a>
-            </div>
-          </div>
-        </div>
-        <div class="main5_supporter_div">
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <span class="main5_supporters_description_rank main5_admins_description_rank_tech">Discord Manager</span>
-              <span class="main5_supporters_description_title pointer">Maciek</span>
-              <span class="main5_supporters_description">Discord Manager<br>Osoba Pomagająca przy tworzeniu hostingu od samego początku</span>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <span class="main5_supporters_description_rank main5_admins_description_rank_partner">Partner Hostingu</span>
-              <a class="main5_supporters_description_title" href="https://discord.gg/7PU5uMSx4Z">AgeLat.net</a>
-              <span class="main5_supporters_description">Oficjalny Partner<br>Partner Hostingu od samego początku historii</span>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <span class="main5_supporters_description_rank main5_website_supporter">Pomocnik</span>
-              <a class="main5_supporters_description_title" href="https://discord.gg/9Qqdm5ydKU">Bartosz</a>
-              <span class="main5_supporters_description">Pomocnik<br>Osoba pomogająca przy tworzeniu strony internetowej</span>
-            </div>
-          </div>
-          <div class="main5_supporters_div">
-            <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
-            <div class="main5_supporters_description_div">
-              <span class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Pomocnik</span>
-              <a class="main5_supporters_description_title" href="https://discord.gg/9Qqdm5ydKU">Przejdź na discord</a>
-              <span class="main5_supporters_description"><br>Dołącz na discord i przejdz na kanał tickety aby spróbować swoich sił na rekrutacji</span>
-            </div>
-          </div>
+        <div class="faq-container">
+          <h1 class="faq-header">Najczęściej zadawane pytania</h1>
+          <div class="faq-items" id="faq-items"></div>
         </div>
       </div>
-      <div class="pricing">
-        <select id="pricing-select">
-          <option value="set1">maszyna 1</option>
-          <option value="set2">maszyna 2</option>
-        </select>
-        <div class="pricing-container">
-          <div class="pricing-blocks"></div>
-        </div>
-      </div>
+      
      
 
 
@@ -298,6 +209,20 @@
           </div>
         </div>
       </div>
+
+      <div class="dc-widget">
+        <a class="headline" id="discord-widget">Dołącz do naszego community</a>
+          <div class="main4_dc_div" >
+            <!-- <iframe src="https://discord.com/widget?id=SERVER_ID&theme=dark"  allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> -->
+            <div class="main4_dc_description_div">
+              <a class="main4_dc_description_title">Rozmawiaj juz teraz</a>
+              <a class="main4_dc_description"> ・Poznawaj ludzi <br> ・Szukaj naszych serwerów <br> ・Bądź informowany o nowościach <br> ・Zakup Serwer  <br><br>・ I więcej </a>
+              <a href="https://discord.gg/9Qqdm5ydKU" class="main4_dc_button_a">
+                <div class="main4_dc_button">Join</div>
+              </a>
+            </div>
+          </div>
+      </div>  
     </div>
 
     <div class="stats-container">
@@ -373,7 +298,5 @@
     <script src="./scripts/components/faq.js"></script>
     <script src="./scripts/components/pricing.js"></script>
 
-
-    
   </body>
 </html>
