@@ -126,6 +126,9 @@ pricingSelect.addEventListener("change", (event) => {
     renderPricingPlans(pricingPlansSet2);
   }
 });
+function toggleSwitch(element) {
+  element.classList.toggle("active");
+}
 
 // Initial render
 renderPricingPlans(pricingPlansSet1);

@@ -32,3 +32,8 @@
 .cookie-btn:hover {
   background-color: #0c0c0c;
 }
+.cookiesLink {
+  color: #5c3d2e;
+  cursor: pointer;
+  font-weight: bold;
+}
