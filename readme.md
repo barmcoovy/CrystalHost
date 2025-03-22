@@ -1,6 +1,6 @@
 # CrystalHost
 
-Website for [CrystalHost]['https://crystalhost.eu']
+Website for [CrystalHost][https://crystalhost.eu]
 
 ## Last changes
 
