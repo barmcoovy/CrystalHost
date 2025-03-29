@@ -121,8 +121,10 @@ function toggleSwitch(element) {
   element.classList.toggle("active");
   if (element.classList.contains("active")) {
     renderPricingPlans(pricingPlansSet2);
+    document.querySelector("#machine-name").innerHTML = "Maszyna 2";
   } else {
     renderPricingPlans(pricingPlansSet1);
+    document.querySelector("#machine-name").innerHTML = "Maszyna 1";
   }
 }
 
