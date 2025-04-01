@@ -8,6 +8,7 @@ cookieBtn.addEventListener("click", () => {
 // }
 if (document.cookie.includes("cookie=accepted")) {
   document.querySelector(".cookie-banner").style.display = "none";
-} else {
-  console.log("Cookie is not set");
 }
+window.addEventListener("beforeunload", () => {
+  document.cookie = "cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+});

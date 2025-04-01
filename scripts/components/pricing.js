@@ -117,16 +117,26 @@ function renderPricingPlans(plans) {
 //     renderPricingPlans(pricingPlansSet2);
 //   }
 // });
+const machineName = document.querySelector("#machine-name");
 function toggleSwitch(element) {
   element.classList.toggle("active");
   if (element.classList.contains("active")) {
     renderPricingPlans(pricingPlansSet2);
-    document.querySelector("#machine-name").innerHTML = "Maszyna 2";
+    machineName.style.transition = "opacity 0.3s ease";
+    machineName.style.opacity = "0";
+    setTimeout(() => {
+      machineName.innerHTML = "Maszyna 2";
+      machineName.style.opacity = "1";
+    }, 200);
   } else {
     renderPricingPlans(pricingPlansSet1);
-    document.querySelector("#machine-name").innerHTML = "Maszyna 1";
+    machineName.style.transition = "opacity 0.3s ease";
+    machineName.style.opacity = "0";
+    setTimeout(() => {
+      machineName.innerHTML = "Maszyna 1";
+      machineName.style.opacity = "1";
+    }, 300);
   }
 }
-
 // Initial render
 renderPricingPlans(pricingPlansSet1);
