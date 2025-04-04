@@ -42,17 +42,16 @@
   margin-left: auto;
   margin-right: auto;
   transition: all 0.5s;
+  width: 70%;
 }
 .main1_logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
 .main1_description {
   text-align: center;
   font-size: 3rem;
   margin-bottom: var(--nice-padding);
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .main1_actcent {
